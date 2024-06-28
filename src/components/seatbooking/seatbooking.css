@@ -1,0 +1,180 @@
+/* .seat-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    margin: 5px 0;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.available {
+    background-color: #fff;
+}
+
+.selected {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.sold {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.legend {
+    display: flex;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.legend-item .seat {
+    margin-right: 5px;
+}
+
+.total-amount {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pay-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pay-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seat-booking {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.screen {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.seats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.seat-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.row-label {
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Adjust based on your layout */
+    gap: 10px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: yellow;
+}
+
+.booking-summary {
+    text-align: center;
+}
+
+.proceed-btn {
+    background-color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

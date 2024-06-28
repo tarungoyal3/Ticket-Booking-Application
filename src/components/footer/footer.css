@@ -1,0 +1,101 @@
+/* footer.css */
+
+/* .bg-white, .border-y */
+footer {
+    background-color: #fff;
+    border-top-width: 1px;
+    border-color: #e2e8f0;
+}
+
+/* .mx-auto, .w-full, .max-w-screen-xl, .p-4, .py-6, .lg:py-8 */
+footer .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1280px; /* Adjust max-width as needed */
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+/* .md:flex, .md:justify-between */
+footer .container .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .mb-6, .md:mb-0 */
+footer .container .footer-content .logo {
+    margin-bottom: 1.5rem;
+}
+
+/* .grid, .grid-cols-2, .gap-8, .sm:gap-6, .sm:grid-cols-3 */
+footer .container .footer-content .links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+/* .mb-4 */
+footer .container .footer-content .links h2 {
+    margin-bottom: 1rem;
+}
+
+/* .text-gray-500, .font-medium */
+footer .container .footer-content .links ul {
+    color: #718096;
+    font-weight: 500;
+}
+
+/* .text-sm, .font-semibold, .text-gray-900, .uppercase */
+footer .container .footer-content .links h2 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2d3748;
+    text-transform: uppercase;
+}
+
+/* .hover:underline */
+footer .container .footer-content .links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* .my-6, .border-gray-200, .sm:mx-auto, .lg:my-8 */
+footer .container hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-color: #edf2f7;
+}
+
+/* .sm:flex, .sm:items-center, .sm:justify-between */
+footer .container .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .text-sm, .text-gray-500, .sm:text-center */
+footer .container .footer-bottom .copyright {
+    font-size: 0.875rem;
+    color: #718096;
+    text-align: center;
+}
+
+/* .flex, .mt-4, .space-x-5, .sm:justify-center, .sm:mt-0 */
+footer .container .footer-bottom .social-icons {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+/* .text-gray-500, .hover:text-gray-900 */
+footer .container .footer-bottom .social-icons a {
+    color: #718096;
+    transition: color 0.2s ease;
+}
+
+footer .container .footer-bottom .social-icons a:hover {
+    color: #2d3748;
+}
+    
