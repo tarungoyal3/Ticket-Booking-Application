@@ -189,8 +189,8 @@ const BookingSummary = () => {
   const foodItems = [
     { name: 'BBQ Grilled Chicken Burger', price: 230, calories: 489, imgSrc: '/food items/mountaindew.webp' },
     { name: 'BBQ Hot Dog', price: 220, calories: 336, imgSrc: '/food items/popcornmedium.jpg' },
-    { name: 'Crispy Paneer Burger', price: 250, calories: 653, imgSrc: '/food_items/crispy_paneer_burger.jpg' },
-    { name: 'Garden Fresh Veggies Pizza', price: 330, calories: 732, imgSrc: '/food_items/garden_fresh_veggies_pizza.jpg' },
+    { name: 'Crispy Paneer Burger', price: 250, calories: 653, imgSrc: '/food items/burger.jpg' },
+    { name: 'Garden Fresh Veggies Pizza', price: 330, calories: 732, imgSrc: '/food items/pizza.jpg' },
     { name: 'Large Nachos Combo', price: 530, calories: 665, imgSrc: '/food_items/large_nachos_combo.jpg' },
     { name: 'Medium Popcorn Salted', price: 420, calories: 849, imgSrc: '/food_items/medium_popcorn_salted.jpg' },
     { name: 'Medium Popcorn Caramel', price: 470, calories: 826, imgSrc: '/food_items/medium_popcorn_caramel.jpg' },
