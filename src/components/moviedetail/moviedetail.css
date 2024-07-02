@@ -1,3 +1,107 @@
+/* .detail {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background: #1b1b1b; 
+    color: white;
+}
+
+.poster {
+    height: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.voting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.rating {
+    color: #ff4757;
+    font-weight: bold;
+}
+
+.votes {
+    margin-left: 5px;
+    color: #777;
+}
+
+.rate-now {
+    background: #ff4757;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dimension, .language {
+    background: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.duration {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.book-tickets {
+    background: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+}
+
+.book-tickets:hover {
+    background: #ff6b81;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .detail {
     display: flex;
     padding: 30px;
@@ -81,3 +185,45 @@
 .book-tickets:hover {
     background: #ff6b81;
 }
+
+.about {
+    padding: 30px;
+    background: #2b2b2b;
+    color: white;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cast-crew {
+    padding: 30px;
+    background: #1b1b1b;
+    color: white;
+}
+
+.cast-crew h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cast, .crew {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    text-align: center;
+    width: 150px; /* Set a fixed width for consistency */
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the box and maintains aspect ratio */
+    margin-bottom: 10px;
+}
+
