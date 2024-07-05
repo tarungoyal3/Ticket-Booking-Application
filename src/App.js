@@ -7,6 +7,7 @@ import Login from './components/login/Login';
 import Moviedetail from './components/moviedetail/Moviedetail';
 import SeatBooking from './components/seatbooking/SeatBooking';
 import BookingSummary from './components/bookingsummary/BookingSummary';
+import AboutUs from './components/About/AboutUs';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
           <Route path='/'>
             <Route index element = {<Home/>}/>
             <Route path='signup' element = {<Signup/>}/>
-            <Route path='login' element = {<Login/>}/>
+            <Route path='login' element = {<Login/>}/>  
+            <Route path='/about-us' element = {<AboutUs/>}/>
             <Route path="movie/:title" element={<Moviedetail/>} />
             <Route path="/booking/:title" element={<SeatBooking/>} />
             <Route path="/booking/:title/summary" element={<BookingSummary/>} />

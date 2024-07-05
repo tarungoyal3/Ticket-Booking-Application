@@ -45,7 +45,8 @@ const Navbar = () => {
                 <input type="text" placeholder='Search movie' className="search-input" />
             </div>
             <ul className="nav-list">
-                <li className="item">Booking</li>
+                <li className="item"><Link to="/about-us" style={{ textDecoration: "none", color: "white" }}>About Us</Link></li>
+                <li className="item">Contact Us</li>
                 {currentUser ? (
                     <li className="item profile-dropdown">
                         <div className="profile-icon">Profile</div>
