@@ -8,6 +8,7 @@ import Moviedetail from './components/moviedetail/Moviedetail';
 import SeatBooking from './components/seatbooking/SeatBooking';
 import BookingSummary from './components/bookingsummary/BookingSummary';
 import AboutUs from './components/About/AboutUs';
+import ContactUs from './components/contact/ContactUs';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
             <Route path='signup' element = {<Signup/>}/>
             <Route path='login' element = {<Login/>}/>  
             <Route path='/about-us' element = {<AboutUs/>}/>
+            <Route path='/contact-us' element = {<ContactUs/>}/>
             <Route path="movie/:title" element={<Moviedetail/>} />
             <Route path="/booking/:title" element={<SeatBooking/>} />
             <Route path="/booking/:title/summary" element={<BookingSummary/>} />
