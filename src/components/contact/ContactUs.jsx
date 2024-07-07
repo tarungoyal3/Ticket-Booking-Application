@@ -40,7 +40,7 @@ export default function Contact() {
                                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                 />
                             </svg>
-                            <div className="contact-text"> Jaipur, RJ</div>
+                            <div className="contact-text"> 30 k 8 Jyoti Nagar,Jaipur, RJ</div>
                         </div>
 
                         <div className="contact-item">
