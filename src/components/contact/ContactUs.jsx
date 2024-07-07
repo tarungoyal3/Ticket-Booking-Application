@@ -1,25 +1,25 @@
 import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import './contact.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
 export default function Contact() {
     const form = useRef();
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    //     emailjs
-    //         .sendForm('service_7ngqcby', 'template_hwn91me', form.current, 'yo2bGVnowbQDHupsF')
-    //         .then(
-    //             () => {
-    //                 alert('Success');
-    //             },
-    //             (error) => {
-    //                 console.log('FAILED...', error.text);
-    //             },
-    //         );
-    // };
+        emailjs
+            .sendForm('service_7ngqcby', 'template_hwn91me', form.current, 'yo2bGVnowbQDHupsF')
+            .then(
+                () => {
+                    alert('Success');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
 
     return (
         <>
@@ -62,8 +62,8 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    {/* <form ref={form} onSubmit={sendEmail} className="contact-form"> */}
-                    <form ref={form} className="contact-form">
+                     <form ref={form} onSubmit={sendEmail} className="contact-form"> 
+                    {/* <form ref={form} className="contact-form"> */}
                         <div className="form-group">
                             <label htmlFor="name" className="form-label">Full Name</label>
                             <input

@@ -1,0 +1,23 @@
+.pricing-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.pricing-container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.pricing-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}

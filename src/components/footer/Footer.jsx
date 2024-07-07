@@ -208,13 +208,28 @@ export default function Footer() {
                             <h2 className="links-heading">Legal</h2>
                             <ul className="links-list">
                                 <li className="links-item">
-                                    <Link to="#" className="link">
+                                    <Link to="/privacy-policy" className="link">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li className="links-item">
-                                    <Link to="#" className="link">
+                                    <Link to="/terms-and-conditions" className="link">
                                         Terms &amp; Conditions
+                                    </Link>
+                                </li>
+                                <li className="links-item">
+                                    <Link to="/pricing-policy" className="link">
+                                        Pricing Policy
+                                    </Link>
+                                </li>
+                                <li className="links-item">
+                                    <Link to="/refunds-cancellation" className="link">
+                                        Refunds Cancellation
+                                    </Link>
+                                </li>
+                                <li className="links-item">
+                                    <Link to="/shipping-policy" className="link">
+                                        Shipping Policy
                                     </Link>
                                 </li>
                             </ul>
