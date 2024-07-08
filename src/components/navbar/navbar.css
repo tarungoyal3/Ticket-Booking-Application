@@ -1,13 +1,78 @@
+/* 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(to bottom right, #00b4db, #0083b0);
+    color: white;
+    
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.search {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.item {
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left: 13px;
+}
+
+.item:hover {
+    color: #ddd;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* General Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    /* background-color: #333; */
     background: linear-gradient(to bottom right, #00b4db, #0083b0);
     color: white;
-    
 }
 
 /* Logo Styles */
@@ -52,3 +117,26 @@
 .item:hover {
     color: #ddd;
 }
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .search {
+        margin: 10px 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item {
+        padding: 5px;
+    }
+}
+
