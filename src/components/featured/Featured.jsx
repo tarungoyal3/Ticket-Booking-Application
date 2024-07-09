@@ -8,7 +8,7 @@ const movies = [
         title: "Chandu Champion",
         genre: "Biography/Drama/Sports",
         likes: "65K Likes",
-        imgSrc: "shawshank.jpeg",
+        imgSrc: "/Movies/chandu.jpeg",
         promoted: true,
     },
     {
@@ -16,27 +16,27 @@ const movies = [
         genre: "Comedy/Horror",
         rating: "8.2/10",
         votes: "21.3K Votes",
-        imgSrc: "interstellar.jpeg",
+        imgSrc: "/Movies/munjya.avif",
     },
     {
         title: "Mr. & Mrs. Mahi",
         genre: "Drama/Romantic/Sports",
         rating: "7.1/10",
         votes: "24.4K Votes",
-        imgSrc: "hangover.jpeg",
+        imgSrc: "/Movies/Mahi.jpg",
     },
     {
-        title: "Bad Boys: Ride or Die",
+        title: "Jatt & Juliet 3",
         genre: "Action/Adventure/Comedy",
         rating: "8.7/10",
         votes: "14.7K Votes",
-        imgSrc: "inception.jpeg",
+        imgSrc: "/Movies/jatt.jpg",
     },
     {
         title: "Inside Out 2",
         genre: "Animation/Comedy/Drama",
         likes: "29.5K Likes",
-        imgSrc: "kaipoche.jpeg",
+        imgSrc: "/Movies/inside-out2.jpg",
     }
 ];
 
