@@ -1,171 +1,35 @@
-/* .contact-container {
-    position: relative;
+ .contact-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    min-height: 500px;
+    min-height: 100vh;
     background-color: white;
-    padding-top: 0;
-    margin-top: 80px;
+    padding: 20px;
 }
 
 .contact-wrapper {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
-    border: 2px solid red;
-}
-
-.contact-grid {
-    display: flex;
-    grid-template-columns: 1fr;
-    gap: 24px;
-}
-
-.contact-info {
-    padding: 24px;
-    margin-right: 8px;
-    background-color: #f7fafc;
-    border-radius: 8px;
-}
-
-.contact-title {
-    font-size: 2.25rem;
-    color: #2d3748;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-}
-
-.contact-description {
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #718096;
-    margin-top: 8px;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    margin-top: 32px;
-    color: #718096;
-}
-
-.contact-icon {
-    width: 32px;
-    height: 32px;
-    color: #a0aec0;
-}
-
-.contact-text {
-    margin-left: 16px;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-    width: 160px;
-}
-
-.contact-form {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-top: 8px;
-}
-
-.form-label {
-    display: none;
-}
-
-.form-input {
     width: 100%;
-    padding: 12px;
-    margin-top: 8px;
-    border-radius: 8px;
-    background-color: white;
-    border: 1px solid #cbd5e0;
-    color: #2d3748;
-    font-weight: 600;
-    outline: none;
-    transition: border-color 0.2s;
-}
-
-.form-input:focus {
-    border-color: #ed8936;
-}
-
-.form-submit {
-    width: 128px;
-    background-color: #c05621;
-    color: white;
-    font-weight: 700;
-    padding: 12px 24px;
-    border-radius: 8px;
-    margin-top: 12px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.form-submit:hover {
-    background-color: #dd6b20;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.contact-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 500px;
-    background-color: white;
-    padding-top: 0;
-    margin-top: 10px;
-}
-
-.contact-wrapper {
-    max-width: 1400px; /* Increased width */
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 20px;
 }
 
 .contact-grid {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
-    width: 100%; /* Ensure the grid takes full width */
 }
 
-.contact-info {
-    flex: 1;
-    padding: 24px;
+.contact-info, .contact-form {
+    flex: 1 1 45%;
     background-color: #f7fafc;
     border-radius: 8px;
-    max-width: 600px; /* Increased width */
+    padding: 24px;
 }
 
 .contact-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: #2d3748;
     font-weight: 800;
     letter-spacing: -0.025em;
@@ -196,32 +60,27 @@
     font-size: 1rem;
     letter-spacing: 0.05em;
     font-weight: 600;
-    width: 200px;
 }
 
 .contact-form {
-    flex: 1;
-    padding: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 600px; /* Increased width */
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
     margin-top: 16px;
 }
 
 .form-label {
-    display: none;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #2d3748;
 }
 
 .form-input {
     width: 100%;
     padding: 12px;
-    margin-top: 8px;
     border-radius: 8px;
     background-color: white;
     border: 1px solid #cbd5e0;
@@ -229,6 +88,7 @@
     font-weight: 600;
     outline: none;
     transition: border-color 0.2s;
+    resize: vertical; /* For textarea */
 }
 
 .form-input:focus {
@@ -251,4 +111,12 @@
     background-color: #dd6b20;
 }
 
+@media (max-width: 768px) {
+    .contact-grid {
+        flex-direction: column;
+    }
 
+    .contact-info, .contact-form {
+        flex: 1 1 100%;
+    }
+}

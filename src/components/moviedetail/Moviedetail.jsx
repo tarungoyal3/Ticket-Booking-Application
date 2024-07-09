@@ -35,8 +35,6 @@ const movies = [
             { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/directors/arijit_singh.jpg" }
         ]
     },
-    // Add other movies here...
-
             {
         title: "Munjiya",
         genre: "Comedy Horror",

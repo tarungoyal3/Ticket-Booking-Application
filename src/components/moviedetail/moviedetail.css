@@ -2,7 +2,7 @@
     display: flex;
     padding: 30px;
     align-items: center;
-    background: #1b1b1b; /* Match background from the image */
+    background: #1b1b1b; 
     color: white;
 }
 
@@ -112,14 +112,14 @@
 
 .member {
     text-align: center;
-    width: 150px; /* Set a fixed width for consistency */
+    width: 150px; 
 }
 
 .member img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover; /* Ensure the image covers the box and maintains aspect ratio */
+    object-fit: cover; 
     margin-bottom: 10px;
 }
 
