@@ -20,7 +20,7 @@ const movies = [
         desc: "This is an unbelievable tale of a man who faced one adversary after another with an undying spirit. His unwavering zeal and never-give-up attitude led to the creation of history. This is the story of Chandu Champion!",
         promoted: true,
         cast: [
-            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/actors/kartik_aryan.jpg" },
+            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/Actors/kartik_aryan.jpg" },
             { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
             { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
             { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
@@ -28,11 +28,11 @@ const movies = [
             { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
         ],
         crew: [
-            { name: "Kabir Khan", role: "Director", imgSrc: "/directors/kabir_khan.jpg" },
-            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/directors/sajid_nadiadwala.jpg" },
-            { name: "Sunit Agarwal", role: "Writer", imgSrc: "/directors/sumit_arora.jpg" },
-            { name: "Pritam", role: "Music Director", imgSrc: "/directors/pritam.jpg" },
-            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/directors/arijit_singh.jpg" }
+            { name: "Kabir Khan", role: "Director", imgSrc: "/Crew/kabir_khan.jpg" },
+            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/Crew/sajid_nadiadwala.jpg" },
+            { name: "Sunit Agarwal", role: "Writer", imgSrc: "/Crew/sumit_arora.jpg" },
+            { name: "Pritam", role: "Music Director", imgSrc: "/Crew/pritam.jpg" },
+            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/Crew/arijit_singh.jpg" }
         ]
     },
             {
@@ -47,19 +47,19 @@ const movies = [
         desc: "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
         imgSrc: "/Movies/munjya.avif",
         cast: [
-            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/actors/kartik_aryan.jpg" },
-            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
-            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
-            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
-            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/actors/shreyas_talpade.jpg" },
-            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
+            { name: "Abhay Sharma", role: "Bittu", imgSrc: "/actors/Abhay_Verma.jpg" },
+            { name: "Sharvari Wagh", role: "Bela", imgSrc: "/actors/sharvari_wagh.jpg" },
+            { name: "Mona Singh", role: "Pammi", imgSrc: "/actors/Mona_Singh.jpg" },
+            { name: "Sathyaraj", role: "Padri", imgSrc: "/actors/Sathyaraj.jpg" },
+            { name: "Ajay Purkar", role: "Balu Kaka", imgSrc: "/actors/Ajay_Purkar.jpg" },
         ],
         crew: [
-            { name: "Kabir Khan", role: "Director", imgSrc: "/kabir_khan.jpg" },
-            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/sajid_nadiadwala.jpg" },
-            { name: "Sunit Agarwal", role: "Cinematographer", imgSrc: "/sunit_agarwal.jpg" },
-            { name: "Pritam", role: "Music Director", imgSrc: "/pritam.jpg" },
-            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/arijit_singh.jpg" }
+            { name: "Aditya Sarpotdar", role: "Director", imgSrc: "/Crew/Aditya_Sarpotdar.jpg" },
+            { name: "Dinesh Vijan", role: "Producer", imgSrc: "/Crew/Dinesh_Vijan.jpg" },
+            { name: "Amar Kaushik", role: "Producer", imgSrc: "/Crew/Amar_Kaushik.jpg" },
+            { name: "Sachin-Jigar", role: "Musician", imgSrc: "/Crew/Sachin-Jigar.jpg" },
+            { name: "Amitabh Bhattacharaya", role: "Lyricist", imgSrc: "/Crew/Amitabh_Bhattacharaya.jpg" },
+            { name: "Saurabh Goswami", role: "Cinematographer", imgSrc: "/Crew/Saurabh_Goswami.jpg" }
         ]
     },
     {
@@ -74,19 +74,15 @@ const movies = [
         desc: "Mahendra, a failed cricketer and Mahima, a doctor are brought together by the virtue of an arranged marriage. Having the same nickname, Mahi, together they become Mr. and Mrs. Mahi. They soon discover their common love and passion for Cricket. Eventually, Mahendra spots cricketing talent in his wife and encourages her to chase her dream of becoming a cricketer and coaches her on this journey.",
         imgSrc: "/Movies/Mahi.jpg",
         cast: [
-            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/actors/kartik_aryan.jpg" },
-            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
-            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
-            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
-            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/actors/shreyas_talpade.jpg" },
-            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
+            { name: "Rajkumar Rao", role: "as Mahendra", imgSrc: "/actors/Rajkumar_Rao.jpg" },
+            { name: "Janhvi Kapoor", role: "as Mahima", imgSrc: "/actors/Janhvi_Kapoor.jpg" },
+            { name: "Kumud Mishra", role: "Actor", imgSrc: "/actors/Kumud_Mishra.jpg" }
         ],
         crew: [
-            { name: "Kabir Khan", role: "Director", imgSrc: "/kabir_khan.jpg" },
-            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/sajid_nadiadwala.jpg" },
-            { name: "Sunit Agarwal", role: "Cinematographer", imgSrc: "/sunit_agarwal.jpg" },
-            { name: "Pritam", role: "Music Director", imgSrc: "/pritam.jpg" },
-            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/arijit_singh.jpg" }
+            { name: "Sharan Sharma", role: "Director", imgSrc: "/Crew/Sharan_Sharma.jpg" },
+            { name: "Hiroo Johar", role: "Producer", imgSrc: "/Crew/Hiroo_Johar.jpg" },
+            { name: "Karan Johar", role: "Producer", imgSrc: "/Crew/Karan_Johar.jpg" },
+            { name: "Nikhil Mehrotra", role: "Writer", imgSrc: "/Crew/Nikhil_Mehrotra.jpg" },
         ]
     },
     {
@@ -101,19 +97,18 @@ const movies = [
         desc: "A battle of wits begins as Fateh joins the police force and meets his charming boss, Pooja, sparking a romantic comedy of unexpected twists. Will Pooja fall into Fateh`s honey trap, or will Cupid`s arrow lead to real love as they embark on an important mission in this rib-tickling affair?",
         imgSrc: "/Movies/jatt.jpg",
         cast: [
-            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/actors/kartik_aryan.jpg" },
-            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
-            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
-            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
-            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/actors/shreyas_talpade.jpg" },
-            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
+            { name: "Diljit Dosanjh", role: "as Fateh", imgSrc: "/actors/Diljit_Dosanjh.jpg" },
+            { name: "Neeru Bajwa", role: "as Pooja", imgSrc: "/actors/Neeru_Bajwa.jpg" },
+            { name: "Jasmin Bajwa", role: "Actor", imgSrc: "/actors/Jasmin_Bajwa.jpg" },
+            { name: "B.N. sharma", role: "Actor", imgSrc: "/actors/B.N._sharma.jpg"},
+            { name: "Rana Ranbir", role: "Actor", imgSrc: "/actors/Rana_Ranbir.jpg" },
         ],
         crew: [
-            { name: "Kabir Khan", role: "Director", imgSrc: "/kabir_khan.jpg" },
-            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/sajid_nadiadwala.jpg" },
-            { name: "Sunit Agarwal", role: "Cinematographer", imgSrc: "/sunit_agarwal.jpg" },
-            { name: "Pritam", role: "Music Director", imgSrc: "/pritam.jpg" },
-            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/arijit_singh.jpg" }
+            { name: "Jagdeep Sidhu", role: "Director", imgSrc: "/Crew/Jagdeep_Sidhu.jpg" },
+            { name: "Gunbir Singh Sidhu", role: "Producer", imgSrc: "/Crew/Gunbir_Singh_Sidhu.jpg" },
+            { name: "Manmord Singh Sidhu", role: "Producer", imgSrc: "/Crew/Manmord_Singh_Sidhu.jpg" },
+            { name: "Dinesh Aulakh", role: "Producer", imgSrc: "/Crew/Dinesh_Aulakh.jpg" },
+            { name: "Jaani", role: "Musiciain", imgSrc: "/Crew/Jaani.jpg" }
         ]
     },
     {
@@ -129,19 +124,18 @@ const movies = [
         desc: "Inside Out 2 returns to the mind of newly minted teenager Riley just as headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new emotions! Joy, Sadness, Anger, Fear and Disgust, who`ve long been running a successful operation by all accounts, aren`t sure how to feel when Anxiety shows up. And it looks like she`s not alone.",
         imgSrc: "/Movies/inside-out2.jpg",
         cast: [
-            { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/actors/kartik_aryan.jpg" },
-            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
-            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
-            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
-            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/actors/shreyas_talpade.jpg" },
-            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
+            { name: "Kensington Tallman", role: "as Riley", imgSrc: "/actors/Kensington_Tallman.jpg" },
+            { name: "Ananya Pandey", role: "as Riley(Hindi)", imgSrc: "/actors/Ananya_Pandey.jpg" },
+            { name: "Amy Poehler", role: "as Joy", imgSrc: "/actors/Amy_Poehler.jpg" },
+            { name: "Maya Hawke", role: "as Anxiety", imgSrc: "/actors/Maya_Hawke.jpg" },
+            { name: "Lewis Black", role: "as Anger", imgSrc: "/actors/Lewis_Black.jpg" },
+            { name: "Phyllis Smith", role: "as Sadness", imgSrc: "/actors/Phyllis_Smith.jpg" }
         ],
         crew: [
-            { name: "Kabir Khan", role: "Director", imgSrc: "/directors/kabir_khan.jpg" },
-            { name: "Sajid Nadiadwala", role: "Producer", imgSrc: "/Directors/sajid_nadiadwala.jpg" },
-            { name: "Sunit Agarwal", role: "Cinematographer", imgSrc: "/sunit_agarwal.jpg" },
-            { name: "Pritam", role: "Music Director", imgSrc: "/pritam.jpg" },
-            { name: "Arijit Singh", role: "Playback Singer", imgSrc: "/arijit_singh.jpg" }
+            { name: "Kelsey Mann", role: "Director", imgSrc: "/Crew/Kelsey_Mann.jpg" },
+            { name: "Meg LeFauve", role: "Writer", imgSrc: "/Crew/Meg_LeFauve.jpg" },
+            { name: "Michael Giacchino", role: "Musiciain", imgSrc: "/Crew/Michael_Giacchino.jpg" },
+            { name: "Pete Docter", role: "Exclusive Producer", imgSrc: "/Crew/Pete_Docter.jpg" }
         ]
     }
 ];
