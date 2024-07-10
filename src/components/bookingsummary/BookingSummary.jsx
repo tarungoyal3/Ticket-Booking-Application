@@ -9,7 +9,6 @@ const BookingSummary = () => {
 
   const [selectedFood, setSelectedFood] = useState([]);
 
-  // Navigate to home if no state is found
   if (!location.state) {
     navigate('/');
     return null;
@@ -29,11 +28,25 @@ const BookingSummary = () => {
   ];
 
   const handleAddFood = (item) => {
-    setSelectedFood([...selectedFood, item]);
+    const existingItem = selectedFood.find(food => food.name === item.name);
+    if (existingItem) {
+      setSelectedFood(selectedFood.map(food => food.name === item.name ? { ...food, quantity: food.quantity + 1 } : food));
+    } else {
+      setSelectedFood([...selectedFood, { ...item, quantity: 1 }]);
+    }
+  };
+
+  const handleRemoveFood = (item) => {
+    const existingItem = selectedFood.find(food => food.name === item.name);
+    if (existingItem.quantity > 1) {
+      setSelectedFood(selectedFood.map(food => food.name === item.name ? { ...food, quantity: food.quantity - 1 } : food));
+    } else {
+      setSelectedFood(selectedFood.filter(food => food.name !== item.name));
+    }
   };
 
   const getFoodTotal = () => {
-    return selectedFood.reduce((total, item) => total + item.price, 0);
+    return selectedFood.reduce((total, item) => total + item.price * item.quantity, 0);
   };
 
   const handleProceed = async (e) => {
@@ -44,7 +57,7 @@ const BookingSummary = () => {
     const response = await fetch("http://localhost:5000/order", {
       method: "POST",
       body: JSON.stringify({
-        amount: grandTotal * 100, // Razorpay amount is in paise
+        amount: grandTotal * 100, 
         currency: "INR",
         receipt: receiptId,
       }),
@@ -56,8 +69,8 @@ const BookingSummary = () => {
     const order = await response.json();
 
     const options = {
-      key: "rzp_test_b0SUGjmbEoC8GI", // Replace with your Razorpay key
-      amount: grandTotal * 100, // Amount in paise
+      key: "rzp_test_b0SUGjmbEoC8GI", 
+      amount: grandTotal * 100, 
       currency: "INR",
       name: "Ticket Booking Application",
       description: "Test Transaction",
@@ -133,6 +146,15 @@ const BookingSummary = () => {
           <h3>Booking Summary</h3>
           <p>Selected Seats: {selectedSeats.join(', ')}</p>
           <p>Total Price for Tickets: ₹{totalPrice}</p>
+          <div>
+            <h4>Selected Food Items:</h4>
+            {selectedFood.map((item, index) => (
+              <div key={index} className="selected-food-item">
+                <span>{item.name} x {item.quantity} - ₹{item.price * item.quantity}</span>
+                <button onClick={() => handleRemoveFood(item)}>Remove</button>
+              </div>
+            ))}
+          </div>
           <p>Food Total: ₹{getFoodTotal()}</p>
           <p>Grand Total: ₹{totalPrice + getFoodTotal()}</p>
           <button className="btn" onClick={handleProceed}>Proceed</button>

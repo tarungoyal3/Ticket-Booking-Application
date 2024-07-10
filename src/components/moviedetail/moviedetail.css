@@ -1,32 +1,44 @@
-.detail {
-    display: flex;
-    padding: 30px;
-    align-items: center;
-    background: #1b1b1b; 
+ /* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.movie-detail {
+    background: #1b1b1b;
     color: white;
 }
 
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
 .poster {
-    height: 400px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 10px;
     object-fit: cover;
 }
 
 .info {
-    margin-left: 20px;
-    flex: 1;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .info h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 .voting {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .rating {
@@ -50,6 +62,7 @@
 
 .more-info {
     display: flex;
+    justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -62,6 +75,7 @@
 
 .duration {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
@@ -76,6 +90,7 @@
     font-weight: bold;
     text-align: center;
     width: fit-content;
+    margin: 0 auto;
 }
 
 .book-tickets:hover {
@@ -91,6 +106,7 @@
 .about h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .cast-crew {
@@ -102,24 +118,65 @@
 .cast-crew h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .cast, .crew {
     display: flex;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .member {
     text-align: center;
-    width: 150px; 
+    width: 100px;
 }
 
 .member img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
+/* Responsive styles */
+@media (min-width: 768px) {
+    .detail {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .info {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .info h2 {
+        font-size: 2.5rem;
+    }
+
+    .voting {
+        font-size: 1.2rem;
+    }
+
+    .about h2, .cast-crew h2 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .poster {
+        height: 400px;
+        width: auto;
+    }
+
+    .info h2 {
+        font-size: 3rem;
+    }
+
+    .voting {
+        font-size: 1.5rem;
+    }
+}

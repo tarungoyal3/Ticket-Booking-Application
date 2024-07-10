@@ -1,168 +1,12 @@
-/* .booking-summary-page {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border: 2px solid black;
-}
-
-.beverages {
-  flex: 1;
-  margin-right: 20px;
-  border: 2px solid red;
-}
-
-.summary-details {
-  flex: 1;
-  border: 2px solid blue;
-}
-
-.beverages ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.beverages li {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0;
-}
-
-.beverages button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.beverages button:hover {
-  background-color: #0056b3;
-}
-
-
-.btn{
-  background-color: yellow;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
 .booking-summary-page {
   display: flex;
-  padding: 20px;
-  gap: 20px;
-}
-
-.beverages {
-  flex: 2;
-}
-
-.summary-details {
-  flex: 1;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
-
-.food-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.food-item {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.food-name {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.food-price {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.food-item button {
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.food-item button:hover {
-  background-color: #0056b3;
-}
-
-.summary-details h3 {
-  margin-bottom: 20px;
-}
-
-.summary-details p {
-  margin-bottom: 10px;
-}
-
-.summary-details .btn {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.summary-details .btn:hover {
-  background-color: #0056b3;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
- .booking-summary-page {
-  display: flex;
   padding: 20px;
   gap: 20px;
 }
 
 .beverages {
-  flex: 2;
+  flex: 1;
 }
 
 .summary-details {
@@ -184,22 +28,22 @@
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
-  height: 300px; /* Fixed height for all cards */
+  height: 300px;
 }
 
 .food-image {
   width: 100%;
-  height: 150px; /* Fixed height for images */
-  object-fit: cover; /* Ensure images cover the area without distortion */
+  height: 150px;
+  object-fit: cover;
   margin-bottom: 10px;
 }
 
 .food-name {
   font-size: 14px;
   margin-bottom: 10px;
-  text-align: center; /* Center align text */
-  height: 40px; /* Fixed height for text */
-  overflow: hidden; /* Hide overflow text */
+  text-align: center;
+  height: 40px;
+  overflow: hidden;
 }
 
 .food-price {
@@ -214,7 +58,7 @@
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: auto; /* Push the button to the bottom */
+  margin-top: auto;
 }
 
 .food-item button:hover {
@@ -229,6 +73,30 @@
   margin-bottom: 10px;
 }
 
+.selected-food-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.selected-food-item span {
+  flex: 1;
+}
+
+.selected-food-item button {
+  padding: 5px 10px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.selected-food-item button:hover {
+  background-color: #ff6b81;
+}
+
 .summary-details .btn {
   padding: 10px 20px;
   background-color: #007bff;
@@ -238,9 +106,18 @@
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
 }
 
-.summary-details .btn:hover {
-  background-color: #0056b3;
+@media (min-width: 768px) {
+  .booking-summary-page {
+    flex-direction: row;
+  }
+  
+  .beverages {
+    flex: 2;
+  }
+  
+  .summary-details {
+    flex: 1;
+  }
 }
