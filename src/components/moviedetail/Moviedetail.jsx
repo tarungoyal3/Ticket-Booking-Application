@@ -21,11 +21,11 @@ const movies = [
         promoted: true,
         cast: [
             { name: "Kartik Aaryan", role: "Murlikant Petkar", imgSrc: "/Actors/kartik_aryan.jpg" },
-            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/actors/Vijay_Raaz.jpg" },
-            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/actors/bhuvan_arora.jpg" },
-            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/actors/yashpal_sharma.jpg" },
-            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/actors/shreyas_talpade.jpg" },
-            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/actors/anirudh_dave.jpg" }
+            { name: "Vijay Raaz", role: "Tiger Ali", imgSrc: "/Actors/Vijay_Raaz.jpg" },
+            { name: "Bhuvan Arora", role: "Karnail Singh", imgSrc: "/Actors/bhuvan_arora.jpg" },
+            { name: "Yashpal Sharma", role: "Uttam Singh", imgSrc: "/Actors/yashpal_sharma.jpg" },
+            { name: "Shreyas Talpade", role: "Inspector Sachin Kamble", imgSrc: "/Actors/shreyas_talpade.jpg" },
+            { name: "Aniruddh Dave", role: "Jagannath Petkar", imgSrc: "/Actors/anirudh_dave.jpg" }
         ],
         crew: [
             { name: "Kabir Khan", role: "Director", imgSrc: "/Crew/kabir_khan.jpg" },
@@ -47,11 +47,11 @@ const movies = [
         desc: "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
         imgSrc: "/Movies/munjya.avif",
         cast: [
-            { name: "Abhay Sharma", role: "Bittu", imgSrc: "/actors/Abhay_Verma.jpg" },
-            { name: "Sharvari Wagh", role: "Bela", imgSrc: "/actors/sharvari_wagh.jpg" },
-            { name: "Mona Singh", role: "Pammi", imgSrc: "/actors/Mona_Singh.jpg" },
-            { name: "Sathyaraj", role: "Padri", imgSrc: "/actors/Sathyaraj.jpg" },
-            { name: "Ajay Purkar", role: "Balu Kaka", imgSrc: "/actors/Ajay_Purkar.jpg" },
+            { name: "Abhay Sharma", role: "Bittu", imgSrc: "/Actors/Abhay_Verma.jpg" },
+            { name: "Sharvari Wagh", role: "Bela", imgSrc: "/Actors/sharvari_wagh.jpg" },
+            { name: "Mona Singh", role: "Pammi", imgSrc: "/Actors/Mona_Singh.jpg" },
+            { name: "Sathyaraj", role: "Padri", imgSrc: "/Actors/Sathyaraj.jpg" },
+            { name: "Ajay Purkar", role: "Balu Kaka", imgSrc: "/Actors/Ajay_Purkar.jpg" },
         ],
         crew: [
             { name: "Aditya Sarpotdar", role: "Director", imgSrc: "/Crew/Aditya_Sarpotdar.jpg" },
@@ -74,9 +74,9 @@ const movies = [
         desc: "Mahendra, a failed cricketer and Mahima, a doctor are brought together by the virtue of an arranged marriage. Having the same nickname, Mahi, together they become Mr. and Mrs. Mahi. They soon discover their common love and passion for Cricket. Eventually, Mahendra spots cricketing talent in his wife and encourages her to chase her dream of becoming a cricketer and coaches her on this journey.",
         imgSrc: "/Movies/Mahi.jpg",
         cast: [
-            { name: "Rajkumar Rao", role: "as Mahendra", imgSrc: "/actors/Rajkumar_Rao.jpg" },
-            { name: "Janhvi Kapoor", role: "as Mahima", imgSrc: "/actors/Janhvi_Kapoor.jpg" },
-            { name: "Kumud Mishra", role: "Actor", imgSrc: "/actors/Kumud_Mishra.jpg" }
+            { name: "Rajkumar Rao", role: "as Mahendra", imgSrc: "/Actors/Rajkumar_Rao.jpg" },
+            { name: "Janhvi Kapoor", role: "as Mahima", imgSrc: "/Actors/Janhvi_Kapoor.jpg" },
+            { name: "Kumud Mishra", role: "Actor", imgSrc: "/Actors/Kumud_Mishra.jpg" }
         ],
         crew: [
             { name: "Sharan Sharma", role: "Director", imgSrc: "/Crew/Sharan_Sharma.jpg" },
@@ -97,11 +97,11 @@ const movies = [
         desc: "A battle of wits begins as Fateh joins the police force and meets his charming boss, Pooja, sparking a romantic comedy of unexpected twists. Will Pooja fall into Fateh`s honey trap, or will Cupid`s arrow lead to real love as they embark on an important mission in this rib-tickling affair?",
         imgSrc: "/Movies/jatt.jpg",
         cast: [
-            { name: "Diljit Dosanjh", role: "as Fateh", imgSrc: "/actors/Diljit_Dosanjh.jpg" },
-            { name: "Neeru Bajwa", role: "as Pooja", imgSrc: "/actors/Neeru_Bajwa.jpg" },
-            { name: "Jasmin Bajwa", role: "Actor", imgSrc: "/actors/Jasmin_Bajwa.jpg" },
-            { name: "B.N. sharma", role: "Actor", imgSrc: "/actors/B.N._sharma.jpg"},
-            { name: "Rana Ranbir", role: "Actor", imgSrc: "/actors/Rana_Ranbir.jpg" },
+            { name: "Diljit Dosanjh", role: "as Fateh", imgSrc: "/Actors/Diljit_Dosanjh.jpg" },
+            { name: "Neeru Bajwa", role: "as Pooja", imgSrc: "/Actors/Neeru_Bajwa.jpg" },
+            { name: "Jasmin Bajwa", role: "Actor", imgSrc: "/Actors/Jasmin_Bajwa.jpg" },
+            { name: "B.N. sharma", role: "Actor", imgSrc: "/Actors/B.N._sharma.jpg"},
+            { name: "Rana Ranbir", role: "Actor", imgSrc: "/Actors/Rana_Ranbir.jpg" },
         ],
         crew: [
             { name: "Jagdeep Sidhu", role: "Director", imgSrc: "/Crew/Jagdeep_Sidhu.jpg" },
@@ -124,12 +124,12 @@ const movies = [
         desc: "Inside Out 2 returns to the mind of newly minted teenager Riley just as headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new emotions! Joy, Sadness, Anger, Fear and Disgust, who`ve long been running a successful operation by all accounts, aren`t sure how to feel when Anxiety shows up. And it looks like she`s not alone.",
         imgSrc: "/Movies/inside-out2.jpg",
         cast: [
-            { name: "Kensington Tallman", role: "as Riley", imgSrc: "/actors/Kensington_Tallman.jpg" },
-            { name: "Ananya Pandey", role: "as Riley(Hindi)", imgSrc: "/actors/Ananya_Pandey.jpg" },
-            { name: "Amy Poehler", role: "as Joy", imgSrc: "/actors/Amy_Poehler.jpg" },
-            { name: "Maya Hawke", role: "as Anxiety", imgSrc: "/actors/Maya_Hawke.jpg" },
-            { name: "Lewis Black", role: "as Anger", imgSrc: "/actors/Lewis_Black.jpg" },
-            { name: "Phyllis Smith", role: "as Sadness", imgSrc: "/actors/Phyllis_Smith.jpg" }
+            { name: "Kensington Tallman", role: "as Riley", imgSrc: "/Actors/Kensington_Tallman.jpg" },
+            { name: "Ananya Pandey", role: "as Riley(Hindi)", imgSrc: "/Actors/Ananya_Pandey.jpg" },
+            { name: "Amy Poehler", role: "as Joy", imgSrc: "/Actors/Amy_Poehler.jpg" },
+            { name: "Maya Hawke", role: "as Anxiety", imgSrc: "/Actors/Maya_Hawke.jpg" },
+            { name: "Lewis Black", role: "as Anger", imgSrc: "/Actors/Lewis_Black.jpg" },
+            { name: "Phyllis Smith", role: "as Sadness", imgSrc: "/Actors/Phyllis_Smith.jpg" }
         ],
         crew: [
             { name: "Kelsey Mann", role: "Director", imgSrc: "/Crew/Kelsey_Mann.jpg" },
