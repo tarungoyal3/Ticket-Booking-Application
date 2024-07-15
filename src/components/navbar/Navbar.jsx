@@ -1,12 +1,21 @@
-
-// Navbar.jsx
 import React from 'react';
 import "./navbar.css";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../AuthContext';
 import { auth } from '../../firebaseConfig';
+
 const Navbar = () => {
     const { currentUser } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = async () => {
+        try {
+            await auth.signOut();
+            navigate('/login');
+        } catch (error) {
+            console.error("Error logging out: ", error);
+        }
+    };
 
     return (
         <div className='navbar'>
@@ -21,8 +30,8 @@ const Navbar = () => {
                     <li className="item profile-dropdown">
                         <div className="profile-icon">Profile</div>
                         <ul className="dropdown-menu">
-                            <li onClick={() => auth.signOut()}>Logout</li>
-                            {/* Add other dropdown items here */}
+                            <li className="dropdown-item"><Link to="/transactions" style={{ textDecoration: "none", color: "black" }}>Transactions</Link></li>
+                            <li className="dropdown-item" onClick={handleLogout}>Logout</li>
                         </ul>
                     </li>
                 ) : (

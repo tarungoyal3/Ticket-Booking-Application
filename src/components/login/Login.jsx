@@ -1,3 +1,4 @@
+// // Login.jsx
 // import React, { useState } from 'react';
 // import { Link, useNavigate } from 'react-router-dom';
 // import { signInWithEmailAndPassword } from "firebase/auth";
@@ -21,7 +22,7 @@
 //             toast.success('Successfully logged in!');
 //             setTimeout(() => {
 //                 navigate('/');
-//             }, 2000); // Adjust delay as needed
+//             }, 700); // Adjust delay as needed
 //         } catch (err) {
 //             console.error('Error logging in:', err);
 //             if (err.code === 'auth/user-not-found') {
@@ -102,7 +103,14 @@
 
 
 
-// Login.jsx
+
+
+
+
+
+
+
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from "firebase/auth";
@@ -126,7 +134,7 @@ const Login = () => {
             toast.success('Successfully logged in!');
             setTimeout(() => {
                 navigate('/');
-            }, 700); // Adjust delay as needed
+            }, 700);
         } catch (err) {
             console.error('Error logging in:', err);
             if (err.code === 'auth/user-not-found') {
